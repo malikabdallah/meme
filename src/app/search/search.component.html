@@ -1,22 +1,23 @@
 
 <div class="central">
+    <div class="formulaire">
 <form [formGroup]="rechercheForm" (ngSubmit)="onSubmitForm()">
     <div class="form-group">
-      <input type="text" id="apyKey" placeholder="entrer votre clef" 
+      <input type="text" id="apyKey" placeholder="entrer le mot chercher" 
       class="form-control" formControlName="question">
     </div>
    
     <div class="form-group">
-      <input  type="number" min="1" max="10" id="title" placeholder="entrer votre titre"
+      <input  type="number" min="1" max="10" id="title" placeholder="combien de gif ?(max 10)"
        class="form-control" formControlName="limit">
     </div>
 
   
-    <button  class="button"  type="submit">Soumettre</button>
+    <button  class="button btn-dark"  type="submit">Soumettre</button>
   
   </form>
 
-
+    </div>
 <div *ngIf="afficher">
     voici les gifs : 
     <ul>
