@@ -33,6 +33,6 @@ export class MemeserviceService {
 
   tranding(limit:string):Observable<trends>{
     
-    return this.http.get<trends>("https://api.giphy.com/v1/gifs/trending?api_key=4nOdiB3MFctctCN9EOYfqlwYxnss6T7k");
+    return this.http.get<trends>("https://api.giphy.com/v1/gifs/trending?api_key=4nOdiB3MFctctCN9EOYfqlwYxnss6T7k&limit="+limit);
   }
 }

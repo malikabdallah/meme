@@ -1,0 +1,28 @@
+
+  <form [formGroup]="translateform" (ngSubmit)="translateS()">
+    
+    <div class="form-group">
+      <input  type="number" min="1" max="10" id="title" placeholder="entrer votre titre"
+       class="form-control" formControlName="limit">
+    </div>
+
+  
+    <button  class="button"  type="submit">Soumettre</button>
+  
+  </form>
+
+
+  <hr/>
+les gifs du jours !
+<div *ngIf="translate">
+  voici les gifs : 
+  <ul>
+      <li *ngFor="let meme of trends.data">
+         <img [src]="meme.images.original.url"/>
+      
+      </li>
+  </ul>
+ 
+
+</div>
+
