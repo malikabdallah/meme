@@ -15,7 +15,9 @@ export class IndexComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-  
+    document.getElementById("home").classList.add('active');
+    document.getElementById("search").classList.remove('active');
+    document.getElementById("trends").classList.remove('active');
 
   }
 

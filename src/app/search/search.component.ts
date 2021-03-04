@@ -23,6 +23,9 @@ export class SearchComponent implements OnInit {
      
     });
     this.afficher=false;
+    document.getElementById("search").classList.add('active');
+    document.getElementById("home").classList.remove('active');
+    document.getElementById("trends").classList.remove('active');
   }
 
   onSubmitForm() {

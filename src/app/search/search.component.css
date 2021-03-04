@@ -1,0 +1,16 @@
+
+  .central{
+
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    height: 100%;
+
+  }
+
+ 
+  a {
+      display: block;
+      margin-right: 1px black solid;
+      border-right: 1px black solid;
+  }

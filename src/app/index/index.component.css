@@ -1,0 +1,34 @@
+
+  .central{
+
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    height: 100%;
+    overflow: auto;
+    overflow-x: hidden;
+  }
+
+  .row{
+      height: 100%;
+  }
+
+  .col{
+      height: 100%;
+  }
+  .left , .right{
+      height: 100%;
+      width: 100%;
+  }
+
+
+  .left{
+      background-color: #51B58E;
+  }
+ 
+.right{
+    background-color: #3497A2;
+}
+  
+
+ 

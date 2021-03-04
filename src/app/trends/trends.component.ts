@@ -22,7 +22,11 @@ export class TrendsComponent implements OnInit {
     
       limit:''
     });
-    this.translate=false
+    this.translate=false;
+    document.getElementById("trends").classList.add('active');
+    document.getElementById("search").classList.remove('active');
+    document.getElementById("home").classList.remove('active');
+
   }
 
   translateS(){
