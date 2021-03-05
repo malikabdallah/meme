@@ -29,6 +29,13 @@
     color: white;
   }
   
+  img{
+      height: 50px;
+   
+  }
+  .log{
+      float:left;
+  }
   /* Style the search box inside the navigation bar */
   .topnav input[type=text] {
     float: right;
@@ -37,6 +44,7 @@
     margin-top: 8px;
     margin-right: 16px;
     font-size: 17px;
+    margin: auto;
   }
   
   /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
